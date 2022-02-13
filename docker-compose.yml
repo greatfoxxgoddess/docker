@@ -6,7 +6,7 @@ services:
 
       build:
 
-        context: your repo link.git#branch
+        context: https://github.com/Thegreatfoxxgoddess/paimon
 
       depends_on:
 
@@ -16,7 +16,7 @@ services:
 
       environment:
 
-          DATABASE_URL: your db url here
+          DATABASE_URL: mongodb+srv://alicia:paimon@cluster0.0lamr.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
           
       env_file:
 
